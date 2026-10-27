@@ -1,0 +1,2 @@
+document.querySelector("h1").innerHTML = "Good Bye";
+document.querySelector("p").innerHTML = "To build a successful career in the field of Computer Science and Information Technology and develop my technical skills.";

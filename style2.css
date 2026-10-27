@@ -1,0 +1,61 @@
+/* Element Selector */
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Class Selector */
+.heading {
+    color: darkblue;
+    font-family: Arial;
+    text-align: center;
+}
+
+.box {
+    background-color: lightblue;
+    border: 3px solid darkblue;
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+/* ID Selector */
+#special {
+    color: darkred;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Page Background Image */
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial;
+}
+
+/* Image Element */
+.large-image {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+}
+
+/* Button Style */
+.button {
+    background-color: darkblue;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: green;
+}

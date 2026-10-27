@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Character Counter</title>
+</head>
+<body>
+
+    <h2>Twitter (X) Character Counter</h2>
+
+    <textarea id="tweet" rows="5" cols="50"
+        placeholder="Write your message here..."
+        onkeyup="countCharacters()"></textarea>
+
+    <p>Characters left: <span id="count">280</span></p>
+
+    <script>
+        function countCharacters() {
+
+            var tweet = document.getElementById("tweet").value;
+
+            var maxLength = 280;
+
+            var charactersLeft = maxLength - tweet.length;
+
+            document.getElementById("count").innerHTML = charactersLeft;
+
+            // Limit the text to 280 characters
+            if (tweet.length > maxLength) {
+                document.getElementById("tweet").value =
+                    tweet.slice(0, maxLength);
+            }
+        }
+    </script>
+
+</body>
+</html>
